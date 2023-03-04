@@ -64,5 +64,7 @@ CREATE TABLE recipes (
   cooking_time int,
   rating int
 );
+
+
 5. Create the table.
 psql -h 127.0.0.1 database_name < albums_table.sql
