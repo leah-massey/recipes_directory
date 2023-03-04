@@ -35,7 +35,7 @@ RSpec.describe RecipeRepository do
     expect(recipes[1].rating).to eq 4
   end 
 
-  xit "gets the Puttansca recipe only" do 
+  it "gets the Puttansca recipe only" do 
     
     repo = RecipeRepository.new
 
